@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="create travel webapp landing page">
+    <title>Travel WebApp - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+
+        .hero-section{
+            background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)),
+            url('https://i.pinimg.com/736x/74/f7/5e/74f75eb6e231c942012bbdb6466dc861.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 90vh;
+            color: white;
+        }
+
+        .card-img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .image-wrapper{
+        margin-bottom: 20px;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 8px;
+     
+    }
+
+    .image-fluid{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+    
+            <p class="navbar-brand fw-bold">✈️ Tripora Travel</p>
+            <button data-bs-toggle="collapse" data-bs-target="#navbarMenu" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-secondary" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="#Destinations">Destinations</a> </li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="#Features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="registration.html">Contact</a> </li>                            
+                        </ul>
+
+                </div>
+        </div>
+    </nav>
+
+
+    <!--Hero Section-->
+
+    <div class="hero-section text-center d-flex align-items-center justify-content-center">
+        <div class="hero-content">
+            <h1 class="display-4 fw-bold">Designed for Extraordinary Escapes</h1>
+            <p class="lead">Experience the world in ways you've only imagined</p>
+            
+                <a class="btn btn-warning btn-lg shadow-lg fw-bold" href="registration.html">Explore Destinations</a>
+            
+        </div>
+    </div>
+
+
+    <section class="container my-5">
+        <article class="row">
+        <h2 class="text-center" id="Destinations">Choose Your Trip Desigtinations</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+          
+    <div class="container">
+        <div class="card" style="width: 20rem; height: 37rem;">
+
+            <div class="card-body">
+                <img src="https://i.pinimg.com/1200x/8f/5d/fe/8f5dfe51ab58a20924917e180a386749.jpg" class="card-img" alt="">
+                <h5 class="card-title fw-bold my-2">The Essence of Italy</h5> 
+                <p class="card-text"> <i class="bi bi-calendar-week"></i> 5 - 7 Days  </p>
+                <p class="card-text fw-bold text-primary"><i class="bi bi-currency-rupee"></i>1,25,000</p>
+                <i class="bi bi-bookmark-fill"></i>
+                <p class="card-text text-muted">Wander through historic streets, marvel at timeless art, and savor world-class Italian cuisine.
+From Venice to Tuscany, experience a journey experience a filled with romance, culture, and unforgettable memories.</p>
+<button data-bs-toggle="model" data-bs-target="#bookingModal" class="btn btn-primary my-4">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card" style="width: 20rem; height: 37rem;">            
+            <div class="card-body">
+                <img class="card-img" src="https://i.pinimg.com/736x/3f/91/ca/3f91ca5bb89f9980f7840350224bb393.jpg" alt="">
+                <h5 class="card-title fw-bold my-2">The Art of Japany</h5> 
+                <p class="card-text"><i class="bi bi-calendar-week"></i> 5 - 7 Days  </p>
+                <p class="card-text fw-bold text-primary"><i class="bi bi-currency-rupee"></i>1,07,000</p>
+                <i class="bi bi-bookmark-fill"></i>
+                <p class="card-text text-muted">Discover a land where ancient temples stand beside dazzling city skylines.
+From serene Kyoto gardens to the vibrant energy of Tokyo, Japan offers a journey unlike any other.</p>
+<button data-bs-toggle="model" data-bs-target="#bookingModal" class="btn btn-primary my-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card" style="width: 20rem; height: 37rem;">
+           <div class="card-body">
+                <img class="card-img" src="https://i.pinimg.com/1200x/a1/2a/e4/a12ae4a5d6cfe3a92c2915a8d05038d7.jpg" alt="">
+                <h5 class="card-title fw-bold my-2">Switzerland</h5> 
+                <p class="card-text"><i class="bi bi-calendar-week"></i> 5 - 7 Days  </p>
+                <p class="card-text fw-bold text-primary"><i class="bi bi-currency-rupee"></i>1,15,000</p>
+                <i class="bi bi-bookmark-fill"></i>
+                <p class="card-text text-muted">Discover snow-capped mountains, serene lakes, and charming alpine towns rich in beauty and tradition.
+Switzerland promises breathtaking scenery, moments at every altitude. 🏔✨</p>
+
+<button data-bs-toggle="model" data-bs-target="#bookingModal" class="btn btn-primary my-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="card" style="width: 20rem; height: 37rem;">            
+            <div class="card-body">
+                <img src="https://i.pinimg.com/736x/96/58/4a/96584a57fc79c799cf0505b29d107d7c.jpg" class="card-img" alt="">
+                <h5 class="card-title fw-bold my-2">United Arab Emirates</h5> 
+                <p class="card-text"><i class="bi bi-calendar-week"></i> 5 - 7 Days  </p>
+                <p class="card-text fw-bold text-primary"><i class="bi bi-currency-rupee"></i>1,10,000</p>
+                <i class="bi bi-bookmark-fill"></i>
+                <p class="card-text text-muted">Experience dazzling skyscrapers, golden deserts, and world-class luxury in the heart of the Middle East.
+From vibrant city life to serene desert escapes, the UAE blends tradition. ✨🌴</p>
+<button data-bs-toggle="model" data-bs-target="#bookingModal" class="btn btn-primary my-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="card" style="width: 20rem; height: 37rem;">            
+            <div class="card-body">
+                <img src="https://i.pinimg.com/1200x/56/98/b2/5698b233bc72097fbfaedffb67c65ee0.jpg" class="card-img" alt="">
+                <h5 class="card-title fw-bold my-2">The Essence of Thailand</h5> 
+                <p class="card-text"><i class="bi bi-calendar-week"></i> 5 - 7 Days  </p>
+                <p class="card-text fw-bold text-primary"><i class="bi bi-currency-rupee"></i>1,25,000</p>
+                <i class="bi bi-bookmark-fill"></i>
+                <p class="card-text text-muted">Discover golden temples, vibrant markets, and crystal-clear beaches framed by lush tropical landscapes.
+Thailand offers a perfect blend of cultural charm, island serenity, and unforgettable adventure. 🌴✨</p>
+<button data-bs-toggle="model" data-bs-target="#bookingModal" class="btn btn-primary my-4">Book Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="card" style="width: 20rem; height: 37rem;">
+            <div class="card-body">
+                <img src="https://i.pinimg.com/1200x/28/84/4d/28844d4a90e95b944499dc0a91667faf.jpg" class="card-img" alt="">
+                <h5 class="card-title fw-bold my-2">The Icelandic Escape</h5> 
+                <p class="card-text"><i class="bi bi-calendar-week"></i> 5 - 7 Days  </p>
+                <p class="card-text fw-bold text-primary"><i class="bi bi-currency-rupee"></i>1,25,000</p>
+                <i class="bi bi-bookmark-fill"></i>
+                <p class="card-text text-muted">Witness dramatic glaciers, steaming geysers, and cascading waterfalls in a land of raw natural beauty.
+From Northern Lights to volcanic landscapes, Iceland an unforgettable adventure like no other. ❄️🔥</p>
+<button data-bs-toggle="model" data-bs-target="#bookingModal" class="btn btn-primary my-4">Book Now</button>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    </article>
+
+    <div class="container">
+        <div class="row">
+        <h1 class="text-center" id="Features">Features</h1>
+        <p class="lead">We are a dedicated travel service provider committed to creating memorable and hassle-free travel experiences for our customers. Our platform offers customized tour packages, reliable transportation services, and complete travel assistance tailored to individual and group needs. Whether you are planning a relaxing holiday, an adventurous getaway, or a cultural exploration, we ensure quality service, comfort, and affordability. With experienced support staff and a customer-first approach, we strive to make every journey smooth, enjoyable, and unforgettable.</p>
+        
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/736x/42/9b/da/429bda036f63b46f1142c746f0f2541d.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/1200x/01/a0/59/01a059410aa9a9723eb12f1d8b8eecd6.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/736x/7d/18/46/7d1846eb508fbe332b5f8023336b44b9.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+         <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/1200x/68/4d/3d/684d3dfb60757096ac4b56633112b11c.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/1200x/2c/3e/be/2c3ebeac800913fe274f63848266d4f0.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+         <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/1200x/4a/0d/36/4a0d3638b7b0091d65a9c37fbb67f78e.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/736x/d4/15/1c/d4151ce381e6ab281d37fd20976f8a01.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/736x/6b/e1/f8/6be1f874a29ae693fc602cf13c2b459a.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/736x/51/d7/12/51d712861ceab000bf5ed8cf5975a0b6.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/1200x/2c/89/c9/2c89c9084b2763371848ea0d1d7ebe07.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/736x/87/01/12/870112554ed554357b844f61493ce547.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+         <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+            <div class="image-wrapper">
+                <img src="https://i.pinimg.com/736x/fa/39/c5/fa39c50641465712e079ec9b257604a6.jpg" class="image-fluid" alt="">
+            </div>
+        </div>
+
+    </article>
+    </div>
+    </div>
+   
+    </section>
+
+   
+
+
+ <footer class="bg-dark text-white py-4 fixed-bottom">
+                <div class="container text-center">
+                    <p class="mb-0">All rights reserved &copy; <span><b>Tripora Tarvel 2026.</b></span> Copyrights | <a href="contact.html"> Contact Us</a> | Terms of Use</a></p>
+                </div>
+                
+            </footer>
+  
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
