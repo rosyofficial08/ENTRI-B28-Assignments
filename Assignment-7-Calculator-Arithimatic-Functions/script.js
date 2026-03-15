@@ -5,10 +5,6 @@ function appendToDisplay(num) {
 
 }
 
-function clearDisplay(){
-    display.value = display.value.slice(0,-1);
-}
-
 function calculateResult(){
     try{
     display.value = eval(display.value);
@@ -16,6 +12,10 @@ function calculateResult(){
     catch{
         display.value = "Error";
     }
+}
+
+function clearDisplay(){
+    display.value = display.value.slice(0,-1);
 }
 
 function clearLastElement(){
