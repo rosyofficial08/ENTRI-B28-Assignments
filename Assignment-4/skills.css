@@ -34,7 +34,7 @@
 section{
     padding: 80px 20px;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 100%;
     min-height: 500px;
     background-color: lightslategray;
     color: white;
